@@ -1,5 +1,9 @@
 def in_set(set,number):
-    pass
+    if number in set:
+        bool = True
+    else:
+        bool = False
+    return bool
 
 
 
