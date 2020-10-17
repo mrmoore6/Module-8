@@ -1,3 +1,10 @@
+"""
+Author: Michael Moore
+Date: 10/16/20
+Program: set_membership.py
+This program takes a set and a number as input and and searchs through the set to find that number if that number...
+if that number is in the set it will return turn otherwise it will return false.
+"""
 def in_set(set,number):
     if number in set:
         bool = True
